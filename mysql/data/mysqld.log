@@ -91,3 +91,32 @@ Version: '5.7.23'  socket: ''  port: 3307  MySQL Community Server (GPL)
 2018-11-06T08:06:54.130635Z 0 [Note] Shutting down plugin 'binlog'
 2018-11-06T08:06:54.131640Z 0 [Note] C:\Bitnami\moodle\mysql\bin\mysqld.exe: Shutdown complete
 
+2018-11-06T08:07:42.812338Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-11-06T08:07:42.812479Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-11-06T08:07:42.812979Z 0 [Note] C:\Bitnami\moodle\mysql\bin\mysqld.exe (mysqld 5.7.23) starting as process 8484 ...
+2018-11-06T08:07:42.827737Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-11-06T08:07:42.828881Z 0 [Note] InnoDB: Uses event mutexes
+2018-11-06T08:07:42.829621Z 0 [Note] InnoDB: Memory barrier is not used
+2018-11-06T08:07:42.830401Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-11-06T08:07:42.831833Z 0 [Note] InnoDB: Number of pools: 1
+2018-11-06T08:07:42.832791Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-11-06T08:07:42.837118Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-11-06T08:07:42.848457Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-11-06T08:07:42.996405Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-11-06T08:07:43.476057Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-11-06T08:07:43.477476Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-11-06T08:07:43.851393Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-11-06T08:07:43.995271Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-11-06T08:07:43.996202Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-11-06T08:07:43.997703Z 0 [Note] InnoDB: Waiting for purge to start
+2018-11-06T08:07:44.103270Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 2589725
+2018-11-06T08:07:44.104663Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Bitnami\moodle\mysql\data\ib_buffer_pool
+2018-11-06T08:07:44.104815Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-11-06T08:07:44.395945Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-11-06T08:07:44.397164Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3307
+2018-11-06T08:07:44.398128Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-11-06T08:07:44.398840Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-11-06T08:07:44.484108Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-11-06T08:07:44.484489Z 0 [Note] InnoDB: Buffer pool(s) load completed at 181106 13:37:44
+2018-11-06T08:07:44.484932Z 0 [Note] C:\Bitnami\moodle\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.23'  socket: ''  port: 3307  MySQL Community Server (GPL)
