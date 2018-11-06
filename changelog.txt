@@ -1,0 +1,640 @@
+============ CHANGELOG =============
+
+Version 3.5.2-1      2018-10-19
+* Fixed SpectreRSB Vulnerability (CVE-2018-15572)
+* Updated Apache to 2.4.35
+* Updated lego to 1.1.0
+* Updated Moodle to 3.5.2
+* Updated PHP to 7.1.23
+
+Version 3.5.2-0      2018-09-08
+* Updated Moodle to 3.5.2
+
+Version 3.5.1-2      2018-09-08
+* Fixed issue with fonts
+
+Version 3.5.1-1      2018-09-03
+* Added Lego tool for configuring Let's encrypt with Apache
+* Updated Apache to 2.4.34
+* Updated lego to 1.0.1
+* Updated MySQL to 5.7.23
+* Updated OpenSSL to 1.0.2p
+* Updated PHP to 7.0.31
+* Updated phpMyAdmin to 4.8.3
+
+Version 3.5.1-0      2018-07-08
+* Updated Moodle to 3.5.1
+
+Version 3.5.0-1      2018-07-03
+* Updated PageSpeed to 1.13.35.2
+* Updated phpMyAdmin to 4.8.2
+
+Version 3.5.0-0      2018-05-17
+* Updated Moodle to 3.5.0
+
+Version 3.4.2-1      2018-05-16
+* Updated Apache to 2.4.33
+* Updated MySQL to 5.7.22
+* Updated OpenSSL to 1.0.2o
+* Updated PHP to 7.0.30
+* Updated phpMyAdmin to 4.8.0.1
+* Updated SQLite to 3.18.0
+
+Version 3.4.2-0      2018-03-19
+* Updated Moodle to 3.4.2
+
+Version 3.4.1-2      2018-03-18
+* Added support for OS X VM
+* Updated PHP to 7.0.28
+* Updated phpMyAdmin to 4.7.9
+
+Version 3.4.1-1      2018-02-23
+* Generate the SSL certificates at installation time
+(boot time in the cloud images and virtual machines)
+* Updated MySQL to 5.7.21
+* Updated PHP to 7.0.27
+* Updated phpMyAdmin to 4.7.8
+
+Version 3.4.1-0      2018-01-15
+* Updated Moodle to 3.4.1
+
+Version 3.4.0-1      2018-01-12
+* Updated OpenSSL to 1.0.2n
+* Updated PHP to 7.0.26
+* Updated phpMyAdmin to 4.7.7
+
+Version 3.4.0-0      2017-11-16
+* Updated Moodle to 3.4.0
+* Updated OpenSSL to 1.0.2m
+* Updated PHP to 7.0.25
+
+Version 3.3.2-1      2017-11-02
+* Add bnsupport tool
+* Updated Apache to 2.4.29
+* Updated MySQL to 5.7.20
+* Updated OpenSSL to 1.0.2l
+* Updated PHP to 7.0.24
+
+Version 3.3.2-0      2017-09-11
+* Updated Moodle to 3.3.2
+* Updated MySQL to 5.7.19
+* Updated PHP to 7.0.23
+* Updated phpMyAdmin to 4.7.4
+
+Version 3.3.1-1      2017-08-24
+* Updated phpMyAdmin to 4.7.2
+* Updated Apache to 2.4.27
+* Updated MySQL to 5.6.37
+* Updated PHP to 7.0.22
+
+Version 3.3.1-0      2017-07-12
+* Updated Apache to 2.4.27
+* Updated PHP to 5.6.31
+* Updated phpMyAdmin to 4.7.1
+* Fix sudo vulnerability (CVE-2017-1000367)
+* Updated OpenSSL to 1.0.2l
+
+Version 3.3.0-0      2017-05-24
+* Updated Moodle to 3.3.0
+
+Version 3.2.3-0      2017-05-08
+* Updated Moodle to 3.2.3
+* Updated MySQL to 5.6.36
+* Updated phpMyAdmin to 4.7.0
+
+Version 3.2.2-0      2017-03-23
+* Updated Moodle to 3.2.2 (Security fix for CVE-2017-2641)
+* Updated phpMyAdmin to 4.6.6
+* Updated OpenSSL to 1.0.2k (Security fixes for CVE-2017-3731, CVE-2017-3731, CVE-2017-3731, and CVE-2016-7055)
+* Updated PHP to 5.6.30
+
+Version 3.2.1-0      2017-01-20
+* Updated Moodle to 3.2.1 (Security fixes CVE-2016-10033, CVE-2016-10045)
+* Updated Apache to 2.4.25
+* Updated MySQL to 5.6.35
+* Updated PHP to 5.6.29
+* Updated phpMyAdmin to 4.6.5.2
+
+Version 2.9.9-0      2016-11-14
+* Updated Moodle to 2.9.9
+* Updated MySQL to 5.6.34
+* Updated PHP to 5.6.27
+
+Version 3.1.3-0      2016-11-14
+* Updated Moodle to 3.1.3
+* Updated PHP to 5.6.27
+* Updated MySQL to 5.6.34
+
+Version 3.1.2-2      2016-10-07
+* Updated documentation links in the Bitnami information page
+
+Version 2.9.8-1      2016-09-29
+* Updated OpenSSL to 1.0.2j (Security fix CVE-2016-6304)
+* Updated MySQL to 5.6.33
+* Updated PHP to 5.6.26
+
+Version 2.9.8-0      2016-09-11
+* Updated Moodle to 2.9.8
+
+Version 3.1.2-0      2016-09-11
+* Updated Moodle to 3.1.2
+
+Version 3.1.1-2      2016-09-01
+* Updated Microsoft Plugins
+* Updated phpMyAdmin to 4.6.4
+* Updated PHP to 5.6.25
+* Patched Off-Path TCP Linux Kernel Vulnerability in Cloud Images and Virtual Machines (Security release CVE-2016-5696)
+* Updated MySQL to 5.6.32
+
+Version 3.1.1-1      2016-07-25
+* Updated PHP to 5.6.24 (Security release: HTTP_PROXY is improperly trusted by some PHP libraries and applications)
+* Blocked Proxy request header in the web server (Security issue CVE-2016-5385, CVE-2016-5387, CVE-2016-1000110)
+
+Version 2.9.7-1      2016-07-24
+* Updated PHP to 5.6.24 (Security release: HTTP_PROXY is improperly trusted by some PHP libraries and applications)
+* Blocked Proxy request header in the web server (Security issue CVE-2016-5385, CVE-2016-5387, CVE-2016-1000110)
+
+Version 2.9.7-0      2016-07-15
+* Updated Apache to 2.4.23
+* Updated Moodle to 2.9.7
+
+Version 3.1.1-0      2016-07-11
+* Updated Moodle to 3.1.1
+* Updated phpMyAdmin to 4.6.3
+* Updated PHP to 5.6.23
+* Updated MySQL to 5.6.31
+
+Version 3.1.0-0      2016-05-23
+* Updated Moodle to 3.1.0
+
+Version 3.0.4-0      2016-05-10
+* Updated Moodle to 3.0.4
+
+Version 2.9.6-0      2016-05-09
+* Updated Moodle to 2.9.6
+* Updated phpMyAdmin to 4.6.1
+* Updated PHP to 5.6.21 (Security release CVE-2016-3074)
+* Updated OpenSSL to 1.0.2h (Security release CVE-2016-2108 CVE-2016-2107)
+* Updated PageSpeed to 1.9.32.14
+
+Version 2.9.5-2      2016-04-15
+* Updated PHP to 5.6.20
+* Updated MySQL to 5.6.30
+* Updated Apache to 2.4.20
+* Updated phpMyAdmin to 4.6.0
+
+Version 3.0.3-2      2016-04-15
+* Added Office 365 plugin
+* Added Microsoft Services plugin
+* Updated PHP to 5.6.20
+* Updated MySQL to 5.6.30
+* Updated Apache to 2.4.20
+* Updated phpMyAdmin to 4.6.0
+
+Version 3.0.3-0      2016-03-14
+* Updated Moodle to 3.0.3
+
+Version 2.9.5-0      2016-03-14
+* Updated Moodle to 2.9.5
+* Updated phpMyAdmin to 4.5.5.1
+* Updated PHP to 5.6.19
+* Updated OpenSSL to 1.0.2g (Security release CVE-2016-0800)
+
+Version 3.0.2-1      2016-02-10
+* Fixed module installation on PHP 7 stacks
+* Updated MySQL to 5.6.29
+* Updated PHP to 5.6.18
+
+Version 2.9.4-3      2016-02-03
+* Updated phpMyAdmin to 4.5.4.1
+* Updated OpenSSL to 1.0.2f (Security release CVE-2016-0701)
+* Fixed cron.php script for Moodle
+
+Version 2.9.4-1      2016-01-26
+* Updated OpenSSL to 1.0.2e
+* Updated libpng to 1.5.26 (Security release CVE-2015-8540)
+
+Version 2.9.4-0      2016-01-11
+* Updated Moodle to 2.9.4
+
+Version 3.0.2-0      2016-01-11
+* Updated Moodle to 3.0.2
+
+Version 3.0.1-0      2015-12-2
+* Updated Moodle to 3.0.1
+* Updated Apache to 2.4.18
+* Updated MySQL to 5.6.28
+* Updated OpenSSL to 1.0.1q
+* Updated phpMyAdmin to 4.5.2
+
+Version 3.0.0-0      2015-11-17
+* Updated libpng to 1.5.24 (security issue)
+
+Version 2.9.3-1      2015-11-17
+* Updated libpng to 1.5.24 (security issue)
+
+Version 3.0.0rc4-0      2015-11-13
+* Updated Moodle to 3.0.0-rc4
+
+Version 3.0.0rc3-0      2015-11-11
+* Updated Moodle to 3.0.0-rc3
+
+Version 2.9.3-0      2015-11-10
+* Updated Moodle to 2.9.3
+
+Version 3.0.0rc2-0      2015-11-07
+* Updated Moodle to 3.0.0-rc2
+
+Version 3.0.0rc1-0      2015-11-06
+* Updated Moodle to 3.0.0-rc1
+* Updated MySQL to 5.6.27
+* Updated Apache to 2.4.17
+
+Version 2.9.2-0      2015-09-14
+* Updated Moodle to 2.9.2
+* Updated PHP to 5.5.29
+* Updated phpMyAdmin to 4.4.13.1
+* Updated Apache to 2.4.16
+* Updated PHP to 5.5.28
+
+Version 2.9.1-2      2015-07-31
+* Fix for browser launch in Windows 10 Edge browser
+
+Version 2.9.1-1      2015-07-10
+* Updated OpenSSL to 1.0.1p
+
+Version 2.9.1-0      2015-07-06
+* Updated Moodle to 2.9.1
+* Updated PHP to 5.5.26
+* Updated MySQL to 5.6.25
+* Updated PHP to 5.5.25
+* Updated phpMyAdmin to 4.4.7
+
+Version 2.9.0-0      2015-05-13
+* Updated Moodle to 2.9.0
+* Dropping RC4 from Apache SSLCipherSuite directive
+* Updated phpMyAdmin to 4.4.3
+* Updated PHP to 5.4.40
+
+Version 2.8.5-1      2015-03-27
+* Updated OpenSSL to 1.0.1m
+* Updated PHP to 5.4.39
+* Added Office 365 plugin for Azure platform
+* Added Microsoft Services plugin for Azure platform
+
+Version 2.8.5-0      2015-03-20
+* Updated Moodle to 2.8.5
+
+Version 2.8.4-0      2015-03-09
+* Updated Moodle to 2.8.4
+* Updated OpenSSL to 1.0.1l
+* Updated PHP to 5.4.38
+* Updated PHP to 5.4.37
+* Updated Apache to 2.4.12
+* Updated MySQL to 5.5.42 for Linux and Windows
+* Updated PageSpeed to 1.9.32.3
+
+Version 2.8.3-0      2015-02-01
+* Updated Moodle to 2.8.3
+* Updated phpMyAdmin to 4.3.7
+* Updated OpenSSL to 1.0.1k (Linux and OS X)
+
+Version 2.8.2-0      2015-01-12
+* Updated Moodle to 2.8.2
+* Updated phpMyAdmin to 4.3.3
+* Updated PHP to 5.4.36
+* Updated PHP to 5.4.35
+* Updated phpMyAdmin to 4.2.12
+
+Version 2.8.1-0      2014-11-17
+* Updated Moodle to 2.8.1
+
+Version 2.8.0-0      2014-11-12
+* Updated Moodle to 2.8.0
+
+Version 2.8.0rc1-0      2014-11-05
+* Updated Moodle to 2.8.0-rc1
+
+Version 2.7.2-0      2014-10-21
+* (Version only available for OS X)
+* Fix MySQL startup issue for OS X Yosemite
+* Updated PHP to 5.4.34
+* Updated OpenSSL to 1.0.1j
+* Added OCI8 module. It requires InstantClient 11.2.
+* Updated phpMyAdmin to 4.2.9.1
+* Updated MySQL to 5.5.40
+
+Version 2.7.2-0      2014-10-02
+* Updated Moodle to 2.7.2
+
+Version 2.7.1-2      2014-09-10
+* Fixed issue with Banner in Cloud Images and Virtual Machines
+* Updated phpMyAdmin to 4.2.8
+
+Version 2.7.1-1      2014-08-27
+* Moved application to root URL in Cloud Images and Virtual Machines
+* Updated MySQL to 5.5.39
+* Updated PHP to 5.4.32
+* Updated OpenSSL to 1.0.1i
+* Updated phpMyAdmin to 4.2.7.1
+* Updated Apache to 2.4.10
+* Updated PHP to 5.4.31
+* Updated MySQL to 5.5.38
+* Updated XDebug to 2.2.5
+* Updated XCache to 3.1.0
+* Updated mongo-php-driver to 1.5.4
+* Updated php-couchbase to 1.1.5
+
+Version 2.7.1-0      2014-07-15
+* Updated Moodle to 2.7.1
+* Updated Libxslt to 1.1.28
+* Updated Libxml2 to 2.9.1
+* Updated PHP to 5.4.30
+* Updated phpMyAdmin to 4.2.5
+* Updated OpenSSL to 1.0.1h
+* Fixed module installation issue
+
+Version 2.7-0      2014-05-13
+* Updated Moodle to 2.7
+* Fixed issue with HTTPS not loading static files
+* Added libv8 and v8js PHP extension for Linux and OS X
+
+Version 2.6.2-1      2014-04-08
+* Updated OpenSSL to 1.0.1g
+* Updated phpMyAdmin to 4.1.12
+* Improved Apache configuration for PHP-FPM mode
+* Updated Apache to 2.4.9
+
+Version 2.6.2-0      2014-03-10
+* Updated PHP to 5.4.26
+* Updated phpMyAdmin to 4.1.9
+* Updated MySQL to 5.5.36
+* Added openssl configuration variable for PHP-FPM mode
+* Configured Site Name by default
+* Salt per user configuration
+* Fixed SMTP configuration
+
+Version 2.6.1-0      2014-01-13
+* Updated phpMyAdmin to 4.1.4
+* Updated PHP to 5.4.24
+* Updated Moodle to 2.6.1
+* Updated OpenSSL to 1.0.1f in Linux and OSX
+* Updated phpMyAdmin to 4.1.0
+* Updated PHP to 5.4.23
+* Added appdomain and appurl features to bnconfig
+
+Version 2.6-0      2013-11-18
+* Updated Moodle to 2.6
+* Updated PHP to 5.4.22
+* Updated phpMyAdmin to 4.0.9
+
+Version 2.5.3-0      2013-11-11
+* Updated Moodle to 2.5.3
+* Updated PHP to 5.4.21
+* Updated phpMyAdmin to 4.0.8
+
+Version 2.5.2-1      2013-10-08
+* Added PHP-FPM support for cloud images and VMs
+* Updated PHP to 5.4.20
+
+Version 2.5.2-0      2013-09-09
+* Updated Moodle to 2.5.2
+* Disable .htaccess
+
+Version 2.5.1-1      2013-08-27
+* Updated PHP to 5.4.19
+* Updated Apache to 2.4.6
+* Added logrotate configuration files
+* Added imagick PHP extension for Linux and OS X
+* Added apr-dbd MySQL driver
+
+Version 2.5.1-0      2013-07-11
+* Updated Moodle to 2.5.1
+* Set PHP max_execution_time setting in Moodle configuration
+* Added mod_pagespeed 1.6.29.2 for Linux
+* Updated PHP to 5.4.17
+* Updated MySQL to 5.5.32
+* Updated phpMyAdmin to 4.0.4.1
+
+Version 2.5-1      2013-05-31
+* Enable add-ons installer
+
+Version 2.5-0      2013-05-27
+* Updated phpMyAdmin to 4.0.1
+* Updated Moodle to 2.5
+* Updated PHP to 5.4.15
+* Updated MySQL to 5.5.30
+* Updated Apache to 2.4.4
+* Updated OpenSSL to 1.0.1e
+
+Version 2.4.3-0      2013-03-18
+* Updated Moodle to 2.4.3
+
+Version 2.4.2-0      2013-03-12
+* Updated Moodle to 2.4.2
+* Updated PHP to 5.4.12
+* Updated phpMyAdmin to 3.5.7
+* Updated MySQL to 5.5.29
+
+Version 2.4.1-0      2013-01-14
+* Updated Moodle to 2.4.1
+* Updated PHP to 5.4.10
+
+Version 2.4-0      2012-12-04
+* Updated Moodle to 2.4
+* Increased the max allowed size for upload files to 32M
+* Updated phpMyAdmin to 3.5.5
+* Increased the max allowed size for upload files to 32M
+
+Version 2.3.3-0      2012-11-12
+* Updated Moodle to 2.3.3
+* Updated PHP to 5.4.8
+* Updated Apache to 2.4.3
+* Updated Memcache to 2.2.7
+* Updated XCache to 3.0.0
+
+Version 2.3.2-0      2012-09-11
+* Updated Moodle to 2.3.2
+* Updated phpMyAdmin to 3.5.2.2
+* Updated curl to 7.27.0
+* Added ModSecurity Apache module 2.6.7
+* Updated AWS SDK to 1.5.13
+* Update PHP to 5.3.16
+* Added Mail, Net_Socket and Net_SMTP pear packages
+
+Version 2.3.1-0      2012-07-10
+* Update Moodle to 2.3.1
+
+Version 2.3-0      2012-06-27
+* Update Moodle to 2.3
+* Updated PHP to 5.3.14
+
+Version 2.2.3-0      2012-05-15
+* Update Moodle to 2.2.3
+* Update PHP to 5.3.12
+
+Version 2.2.2-1      2012-04-27
+* Configure Moodle to dynamically set wwwroot option
+* Add an automatically generated SSL certificate for Apache
+* Update MySQL 5.5.21
+* Update SQLite to 3.7.10
+* Update libraries for Linux and OSX:
+- OpenSSL to 1.0.1
+- zlib 1.2.6
+- OpenLDAP to 2.4.23
+- ncurses 5.9
+- bzip2 1.0.6
+- libpng to 1.5.9
+- tiff to 4.0.1
+- jpeg to 8d
+- freetype to 2.4.8
+- ImageMagick to 6.7.5
+- expat 2.0.1
+- cyrus-sasl to 2.1.25
+- gmp to 4.3.1
+- curl to 7.24.0
+- libiconv to 1.14
+- imap to 2007f
+- libxml2 to 2.7.8
+- libxslt to 1.1.26
+- icu4c to 4_8_1_1
+
+Version 2.2.2-0      2012-03-12
+* Update Moodle to 2.2.2
+* Update Apache to 2.2.22
+* Update PHP to 5.3.10
+* Update phpMyAdmin to 3.4.10.1
+* Fix issue with myMobile theme
+
+Version 2.2.1-0      2012-01-17
+* Update Moodle to 2.2.1
+* Update phpMyAdmin to 3.4.9
+* Update AWS SDK for PHP to 1.4.8
+
+Version 2.2-0      2011-12-07
+* Update Moodle to 2.2
+* Update phpMyAdmin to 3.4.8
+
+Version 2.1.3-0      2011-11-29
+* Update Moodle to 2.1.3
+* Update Apache to 2.2.21
+* Update MySQL to 5.5.16
+* Update phpMyAdmin to 3.4.7.1
+* Update AWS SDK for PHP to 1.4.7
+
+Version 2.1.2-0      2011-10-10
+* Update Moodle to 2.1.2
+
+Version 2.1.1-2      2011-09-28
+* Added mail support with SMTP
+
+Version 2.1.1-1      2011-08-26
+* Update PHP to 5.3.8
+* Update Apache to 2.2.19
+* Update phpMyAdmin to 3.4.4
+* Update AWS SDK for PHP to 1.4.1
+* Disable MySQL binary logging
+
+Version 2.1.1-0      2011-08-02
+* Update Moodle to 2.1.1
+
+Version 2.1-0      2011-07-22
+* Update Moodle to 2.1
+* Add Linux 64 bits support
+* Add graphical tool for managing servers
+* Update phpMyAdmin to 3.4.2
+
+Version 2.0.3-0      2011-06-27
+* Don't allow to execute the ctlscript.sh script as root
+when the stack is installed as a non root user
+
+Version 2.0.3-0      2011-05-10
+* Update Moodle to 2.0.3
+* Update PHP to 5.3.5
+* Update MySQL to 5.1.56
+* Update phpMyAdmin to 3.3.10
+* Update AWS SDK to 1.2.6
+* Include libmcrypt 1.2.8
+
+Version 2.0.2-0      2011-02-24
+* Update Moodle to 2.0.2
+
+Version 2.0.1-0      2010-12-28
+* Update Moodle to 2.0.1
+
+Version 2.0-0      2010-12-10
+* Update Moodle to 2.0
+
+Version 1.9.10-0      2010-11-18
+* Update Moodle to 1.9.10
+* Update Apache to 2.2.17
+* Added Amazon AWS SDK for PHP 1.0.0
+* Fix libncursesw dependency for MySQL on Linux
+* Include xdebug and xsl extenstions
+* Configure PHP with GD bundled
+* Update Libxml to 2.7.7
+* Update OpenSSL to 0.9.8o
+* Update PHP to 5.2.14
+* Update MySQL to 5.1.50
+
+Version 1.9.9-0      2010-06-22
+* Set version information for openSSL on Linux
+* Update Moodle to 1.9.9
+
+Version 1.9.8-0      2010-04-28
+* Update PHP to 5.2.13
+* Update Apache to 2.2.14
+* Update Moodle to 1.9.8
+
+Version: 1.9.7-0  2009-11-30
+* Updated Moodle to 1.9.7
+
+Version: 1.9.5-1  2009-07-09
+* Updated PHP to 5.2.10
+
+Version: 1.9.5-0  2009-06-29
+* Updated Moodle to version 1.9.5
+
+Version: 1.9.4-0  2009-02-04
+* Updated Moodle to version 1.9.4
+
+Version: 1.9.3-0  2008-11-24
+* Updated Moodle to version 1.9.3
+
+Version: 1.9.2-1  2008-09-17
+* Added environment console
+
+Version: 1.9.2-0  2008-07-25
+* Updated Moodle to 1.9.2
+
+Version: 1.9-2  2008-06-25
+* Fixed openssl module
+
+Version: 1.9-1 	2008-05-29
+* Updated Apache to 2.2.8
+* Updated Php to 5.2.6
+* Updated MySQL to 5.0.51
+
+Version: 1.9-0	2008-04-23
+* Upgraded Moodle to 1.9
+
+Version: 1.8.4-2	2008-03-05
+* Fixed installation bug related to SELinux
+
+Version: 1.8.4-1	2008-02-14
+* Fixed installation as root on Unix systems
+
+Version: 1.8.4		2008-01-29
+* Upgraded Moodle to 1.8.4
+* Fix Moodle configuration to allow access from external computers
+* Fixed bug that made the installer fails in Fedora and other Linux
+platforms.
+
+Version: 1.8.3-1	2008-01-02
+* Added native installers for PPC and x86
+architectures on OSX
+* Fixed MySQL timing bug
+
+Version: 1.8.3 		2007-11-30
+* Initial release, bundles Apache 2.0.61, PHP 5.2.5, MySQL 5.0.45,
+phpMyAdmin 2.11.2 and Moodle 1.8.3 (20071128).
