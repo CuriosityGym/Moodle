@@ -31,3 +31,12 @@
 [Tue Nov 06 13:55:38.057927 2018] [ssl:warn] [pid 996:tid 596] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
 [Tue Nov 06 13:55:38.234967 2018] [ssl:warn] [pid 996:tid 596] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
 [Tue Nov 06 13:55:38.266206 2018] [mpm_winnt:notice] [pid 996:tid 596] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 11:54:12.101952 2018] [mpm_winnt:notice] [pid 8580:tid 672] AH00428: Parent: child process 996 exited with status 1 -- Restarting.
+[Thu Nov 08 11:54:17.304060 2018] [ssl:warn] [pid 8580:tid 672] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 08 11:54:19.178435 2018] [mpm_winnt:notice] [pid 8580:tid 672] AH00455: Apache/2.4.35 (Win32) OpenSSL/1.0.2p PHP/7.1.23 configured -- resuming normal operations
+[Thu Nov 08 11:54:19.178435 2018] [mpm_winnt:notice] [pid 8580:tid 672] AH00456: Apache Lounge VC14 Server built: Sep 20 2018 13:45:32
+[Thu Nov 08 11:54:19.178435 2018] [core:notice] [pid 8580:tid 672] AH00094: Command line: 'C:\\Bitnami\\moodle\\apache2\\bin\\httpd.exe -d C:/Bitnami/moodle/apache2 -f C:\\Bitnami\\moodle\\apache2\\conf\\httpd.conf'
+[Thu Nov 08 11:54:19.240892 2018] [mpm_winnt:notice] [pid 8580:tid 672] AH00418: Parent: Created child process 4256
+[Thu Nov 08 11:54:20.334383 2018] [ssl:warn] [pid 4256:tid 576] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 08 11:54:20.662430 2018] [ssl:warn] [pid 4256:tid 576] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 08 11:54:20.818648 2018] [mpm_winnt:notice] [pid 4256:tid 576] AH00354: Child: Starting 64 worker threads.
