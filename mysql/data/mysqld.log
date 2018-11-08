@@ -120,3 +120,7 @@ Version: '5.7.23'  socket: ''  port: 3307  MySQL Community Server (GPL)
 2018-11-06T08:07:44.484489Z 0 [Note] InnoDB: Buffer pool(s) load completed at 181106 13:37:44
 2018-11-06T08:07:44.484932Z 0 [Note] C:\Bitnami\moodle\mysql\bin\mysqld.exe: ready for connections.
 Version: '5.7.23'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2018-11-06T10:54:34.805006Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 661040ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-07T05:02:34.397448Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 64731671ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-07T05:27:26.791458Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 364006ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-07T09:20:27.119460Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9635268ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
