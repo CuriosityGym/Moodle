@@ -1,5 +1,6 @@
 mysql/data/mysqld.log
 apache2/logs/access.log
+
 apache2/logs/error.log
 apache2/logs/httpd.pid
 mysql/data/ib_buffer_pool
@@ -7,3 +8,5 @@ mysql/data/ib_logfile0
 mysql/data/ibdata1
 mysql/data/ibtmp1
 mysql/data/kapil.pid
+
+apps/moodle/moodledata/sessions/
