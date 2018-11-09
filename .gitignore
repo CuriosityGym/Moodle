@@ -10,3 +10,10 @@ mysql/data/ibtmp1
 mysql/data/kapil.pid
 
 apps/moodle/moodledata/sessions/
+
+#These files are created when the Moodle 1st front page loads w/o login
+mysql/data/bitnami_moodle/mdl_logstore_standard_log.ibd
+mysql/data/bitnami_moodle/mdl_sessions.ibd
+mysql/data/mysql/innodb_index_stats.ibd
+mysql/data/mysql/innodb_table_stats.ibd
+
