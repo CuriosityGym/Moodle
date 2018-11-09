@@ -17,3 +17,4 @@ mysql/data/bitnami_moodle/mdl_sessions.ibd
 mysql/data/bitnami_moodle/mdl_user.ibd
 mysql/data/mysql/innodb_index_stats.ibd
 mysql/data/mysql/innodb_table_stats.ibd
+
