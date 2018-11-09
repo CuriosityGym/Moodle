@@ -1,1 +1,2 @@
 mysql/data/mysqld.log
+apache2/logs/access.log
