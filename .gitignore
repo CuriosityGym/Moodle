@@ -18,3 +18,9 @@ mysql/data/bitnami_moodle/mdl_user.ibd
 mysql/data/mysql/innodb_index_stats.ibd
 mysql/data/mysql/innodb_table_stats.ibd
 
+# Trying to register site
+apps/moodle/moodledata/cache/
+apps/moodle/moodledata/localcache/
+
+#Trying to install Theme
+apps/moodle/moodledata/temp/
