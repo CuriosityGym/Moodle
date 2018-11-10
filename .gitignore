@@ -1,3 +1,6 @@
+*.gitignore
+
+
 mysql/data/mysqld.log
 apache2/logs/access.log
 
@@ -10,3 +13,5 @@ mysql/data/ibtmp1
 mysql/data/kapil.pid
 
 apps/moodle/moodledata/sessions/
+
+
